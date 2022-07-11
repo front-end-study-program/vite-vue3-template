@@ -14,6 +14,7 @@ const add = () => {
     <button @click="add">
       add
     </button>
+    <router-view />
   </div>
 </template>
 

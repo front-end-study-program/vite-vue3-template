@@ -5,19 +5,29 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint src/**"
   },
+  "lint-staged": {
+		"src/**/*.{js,jsx,tsx,ts,vue}": [
+			"npm run lint"
+		]
+	},
   "dependencies": {
     "pinia": "^2.0.14",
     "vue": "^3.2.25",
     "vue-router": "^4.1.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@study-sea/eslint-config-vue": "^0.0.4",
     "@study-sea/prettier-config": "^0.0.1",
     "@study-sea/stylelint-config-recommended": "^0.0.2",
     "@vitejs/plugin-vue": "^2.3.3",
     "eslint": "^8.19.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "stylelint": "^14.9.1",

@@ -1,11 +1,5 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-
-const routes: RouteRecordRaw[] = [
-  {
-    path: '/',
-    component: () => import('@/views/home.vue')
-  }
-]
+import { createRouter, createWebHashHistory } from 'vue-router'
+import routes from '~pages'
 
 export default createRouter({
   history: createWebHashHistory(),

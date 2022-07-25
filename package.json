@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint src/**"
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue --quiet ./"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,tsx,ts,vue}": [

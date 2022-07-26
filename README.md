@@ -49,6 +49,7 @@
 
   - 全匹配路由：404 匹配所有路径。
     > src/views/[...all].vue -> /*
+- [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) （生成 vue 路由布局）
 - [pinia](https://pinia.vuejs.org/) （vue 的状态管理库）
 - [commitlint](https://github.com/conventional-changelog/commitlint)，[配置步骤](https://github.com/front-end-study-program/commitlint-config) （git 提交信息规范化）
 - [typescript](https://github.com/microsoft/TypeScript) JavaScript 类型超集）

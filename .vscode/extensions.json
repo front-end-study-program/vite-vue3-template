@@ -6,6 +6,7 @@
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
     "wayou.vscode-todo-highlight",
-    "sdras.vue-vscode-snippets"
+    "sdras.vue-vscode-snippets",
+    "antfu.unocss"
   ]
 }

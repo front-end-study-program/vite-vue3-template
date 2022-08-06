@@ -54,3 +54,16 @@
 - [commitlint](https://github.com/conventional-changelog/commitlint)，[配置步骤](https://github.com/front-end-study-program/commitlint-config) （git 提交信息规范化）
 - [typescript](https://github.com/microsoft/TypeScript) JavaScript 类型超集）
 - [unocss](https://github.com/unocss/unocss) （原子化css引擎）
+- [@unocss/preset-icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)（unocss-css图标预设）
+  - 图标提供可以下载 [iconify](https://github.com/iconify/iconify) 关联的包或者通过配置自定义图标集合
+  - 如下：在 [icon-sets](http://icon-sets.iconify.design/) 网站找到需要的图标，在 [npm](https://www.npmjs.com/) 搜索 @iconify-json/[图标前缀] 下载即可使用。
+
+    ```bash
+    pnpm i -D @iconify-json/line-md
+    ```
+
+  - 使用 i-[图标前缀]-[图标名] 或 i-[图标前缀]:[图标名]
+
+    ```vue
+    <div class="i-line-md-account"></div>
+    ```

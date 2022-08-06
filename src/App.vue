@@ -17,6 +17,7 @@ const add = () => {
     >
       add
     </button>
+    <div class="i-line-md:account" />
     <router-view />
   </div>
 </template>

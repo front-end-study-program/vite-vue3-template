@@ -3,9 +3,11 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
+  '@iconify-json/line-md': ^1.1.13
   '@study-sea/eslint-config-vue': ^0.0.4
   '@study-sea/prettier-config': ^0.0.1
   '@study-sea/stylelint-config-recommended': ^0.0.2
+  '@unocss/preset-icons': ^0.44.7
   '@vitejs/plugin-vue': ^2.3.3
   eslint: ^8.19.0
   husky: ^8.0.1
@@ -32,9 +34,11 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
+  '@iconify-json/line-md': 1.1.13
   '@study-sea/eslint-config-vue': 0.0.4_4x5o4skxv6sl53vpwefgt23khm
   '@study-sea/prettier-config': 0.0.1_prettier@2.7.1
   '@study-sea/stylelint-config-recommended': 0.0.2_uyk3cwxn3favstz4untq233szu
+  '@unocss/preset-icons': 0.44.7
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.37
   eslint: 8.19.0
   husky: 8.0.1
@@ -463,6 +467,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/line-md/1.1.13:
+    resolution: {integrity: sha512-LEyIQBAb4wdSnWayI+RuX9aIDZcpnlak4Zz9sBUR59u7Tcz7aVQcNpIzlS1YbZlufWgh84cs+0F9PfNYOacoZg==}
+    dependencies:
+      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify/types/1.1.0:

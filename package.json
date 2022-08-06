@@ -21,9 +21,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@iconify-json/line-md": "^1.1.13",
     "@study-sea/eslint-config-vue": "^0.0.4",
     "@study-sea/prettier-config": "^0.0.1",
     "@study-sea/stylelint-config-recommended": "^0.0.2",
+    "@unocss/preset-icons": "^0.44.7",
     "@vitejs/plugin-vue": "^2.3.3",
     "eslint": "^8.19.0",
     "husky": "^8.0.1",
